@@ -1,41 +1,35 @@
 const prayer = document.querySelector(".prayer");
-prayer.onclick = function() { 
+prayer.onclick = function () {
     window.location.href = "./prayer-times.html";
 };
 
 
 const currencyconversion = document.querySelector(".currencyconversion");
-currencyconversion.onclick = function() { 
+currencyconversion.onclick = function () {
     window.location.href = "./currencyconversion.html";
 };
 
 
-
-
-
 const weather = document.querySelector(".weather");
-weather.onclick = function() { 
+weather.onclick = function () {
     window.location.href = "./weather.html";
 };
 
 
 
-window.onscroll=function(){
- 
-    const nav=document.querySelector("nav");
-    const carousel=document.querySelector(".carousel");
+window.onscroll = function () {
 
-    if(window.scrollY > carousel.offsetTop){
+    const nav = document.querySelector("nav");
+    const carousel = document.querySelector(".carousel");
 
-      nav.classList.add('scrolNavbar');
+    if (window.scrollY > carousel.offsetTop) {
 
-
-
-    }else 
-    
-    nav.classList.remove('scrolNavbar');
+        nav.classList.add('scrolNavbar');
 
 
 
+    } else
+
+        nav.classList.remove('scrolNavbar');
 
 }

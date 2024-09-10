@@ -1,11 +1,11 @@
-const apiKey = '4d7a7f989a38d22cbb16dd03289f1ddf'; 
+const apiKey = '4d7a7f989a38d22cbb16dd03289f1ddf';
 
 function getWeather() {
     const city = document.getElementById('city').value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=en`;
 
 
-    
+
     axios.get(url)
         .then(response => {
             const data = response.data;
@@ -20,7 +20,7 @@ function getWeather() {
 
                 `;
                 document.getElementById('weatherResult').innerHTML = weatherInfo;
-         
+
             } else {
                 document.getElementById('weatherResult').innerHTML = `<p>City not found.</p>`;
             }

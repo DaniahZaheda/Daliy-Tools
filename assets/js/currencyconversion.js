@@ -28,4 +28,3 @@ function convert() {
     result.textContent = `to ${exchangeOperations.exchange} = ${con}`;
 }
 
- 

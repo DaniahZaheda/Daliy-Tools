@@ -1,5 +1,5 @@
-.d-none{
- display: none !important;
+.d-none {
+   display: none !important;
 
 }
 
@@ -9,7 +9,7 @@
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: rgba(0, 0, 0, 0.5); 
+   background-color: rgba(0, 0, 0, 0.5);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -20,117 +20,128 @@
 .loader {
    width: 10%;
    aspect-ratio: 1;
-  
+
    background: #000000;
-   clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
-   animation: l1 2s infinite cubic-bezier(0.3,1,0,1);
- }
- @keyframes l1 {
-   33% {border-radius: 0;background: red ;clip-path: polygon(0 0,100% 0,100% 100%,0 100%)}
-   66% {border-radius: 0;background: red ;clip-path: polygon(50% 0,50% 0,100% 100%,0 100%)}
- }
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   animation: l1 2s infinite cubic-bezier(0.3, 1, 0, 1);
+}
+
+@keyframes l1 {
+   33% {
+      border-radius: 0;
+      background: red;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+   }
+
+   66% {
+      border-radius: 0;
+      background: red;
+      clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%)
+   }
+}
 
 
 
 
-button a{
-  color: brown;
-    text-decoration: none;
+button a {
+   color: brown;
+   text-decoration: none;
 }
 
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-nav{
-    position: sticky;
-    top: 0;
-}
-.carousel-item{
- background-size: cover;
- background-position: top ;
- align-items: end;
- 
-
+nav {
+   position: sticky;
+   top: 0;
 }
 
- .carousel-box{
-    background-color: rgba(0,0,0,0.5);
-    padding: 70px;
-    width: 70%;
-    height: 45%;
-    border-top: 5px solid red;
-    border-left: 5px solid red;
-    border-radius: 30%;
-    text-align: left;
-   
- }
+.carousel-item {
+   background-size: cover;
+   background-position: top;
+   align-items: end;
 
-.carousel-box p span {
-color :red;
-font-size:25px;
 
 }
 
- .carousel-control-next, .carousel-control-prev {
-    width: 60px;
-    height: 60px;
-    top: 50%;
-    background-color: brown;
-    border-radius: 50%;
- }
-
- .carousel-control-next{
-    right: 20px;
- }
-
- .carousel-control-prev {
-    left: 20px;
- }
-
- .carousel-indicators [data-bs-target]{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
- }
- .carousel-indicators .active {
-    background-color: red;
- }
-
-.form-reg{
-    
-   background-color: rgba(0, 0, 0, 0.764);
+.carousel-box {
+   background-color: rgba(0, 0, 0, 0.5);
    padding: 70px;
-  
+   width: 70%;
+   height: 45%;
    border-top: 5px solid red;
    border-left: 5px solid red;
- 
+   border-radius: 30%;
    text-align: left;
 
 }
 
-.dark{
+.carousel-box p span {
+   color: red;
+   font-size: 25px;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+   width: 60px;
+   height: 60px;
+   top: 50%;
+   background-color: brown;
+   border-radius: 50%;
+}
+
+.carousel-control-next {
+   right: 20px;
+}
+
+.carousel-control-prev {
+   left: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+}
+
+.carousel-indicators .active {
+   background-color: red;
+}
+
+.form-reg {
+
+   background-color: rgba(0, 0, 0, 0.764);
+   padding: 70px;
+
+   border-top: 5px solid red;
+   border-left: 5px solid red;
+
+   text-align: left;
+
+}
+
+.dark {
    background-color: black;
    color: white;
-   
 
 }
 
 
-.cont{
+.cont {
 
    height: 100%;
    flex-wrap: wrap;
    display: flex;
-   justify-content: center;  
+   justify-content: center;
    align-items: center;
- 
-}
-
-.scrolNavbar{
-
-  background-color: rgba(96, 92, 92, 0.5)!important;
 
 }
 
+.scrolNavbar {
+
+   background-color: rgba(96, 92, 92, 0.5) !important;
+
+}
